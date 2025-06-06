@@ -2,12 +2,13 @@
 
 ### Objetivo
 Realizar consultas no banco Northwind
+----
 
 ### Anotações
 Nessa aula aprendi um pouco mais sobre SQL
+----
 
 #### 1. DDL (Data Definition Language)
-------
 O DDL ou Linguagem de Definição de Dados é usado para definir e modificar a estrutura do banco de dados e seus objetos, como tabelas, índices, restrições, esquemas, entre outros. Comandos DDL incluem:
 
 CREATE: Usado para criar novos objetos no banco de dados, como tabelas, índices, funções, vistas, triggers, etc.
@@ -21,6 +22,7 @@ TRUNCATE: Remove todos os registros de uma tabela, liberando o espaço ocupado p
 Responsável: Administradores de banco de dados (DBAs) e desenvolvedores de banco de dados.
 
 Objetivo: O DDL é usado para criar e modificar a estrutura do banco de dados e de seus objetos. Esses comandos ajudam a definir como os dados são organizados, armazenados, e como as relações entre eles são estabelecidas. Eles são essenciais durante a fase de design do banco de dados e quando são necessárias mudanças na estrutura.
+----
 
 #### 2. DML (Data Manipulation Language)
 O DML ou Linguagem de Manipulação de Dados é usado para gerenciar dados dentro dos objetos (como tabelas). Inclui comandos para inserir, modificar e deletar dados:
@@ -36,12 +38,15 @@ MERGE: Uma operação que permite inserir, atualizar ou deletar registros em uma
 Responsável: Desenvolvedores de software, analistas de dados e, ocasionalmente, usuários finais através de interfaces que executam comandos DML por trás dos panos.
 
 Objetivo: O DML é crucial para o gerenciamento dos dados dentro das tabelas. Ele é utilizado para inserir, atualizar, deletar e manipular dados armazenados. Analistas de dados podem usar DML para preparar conjuntos de dados para análise, enquanto os desenvolvedores o utilizam para implementar a lógica de negócios.
+----
 
 #### 3. DQL (Data Query Language)
 O DQL ou Linguagem de Consulta de Dados é fundamentalmente usado para realizar consultas nos dados. O comando mais conhecido na DQL é o SELECT, que é utilizado para recuperar dados de uma ou mais tabelas.
 
 Responsável: Analistas de dados, cientistas de dados, e qualquer usuário que necessite extrair informações do banco de dados.
 Objetivo: O DQL é usado para consultar e recuperar dados. É fundamental para gerar relatórios, realizar análises, e fornecer dados que ajudem na tomada de decisões. O comando SELECT, parte do DQL, é um dos mais usados e é essencial para qualquer tarefa que requer visualização ou análise de dados.
+----
+
 #### 4. DCL (Data Control Language)
 O DCL ou Linguagem de Controle de Dados inclui comandos relacionados à segurança na acessibilidade dos dados no banco de dados. Isso envolve comandos para conceder e revogar permissões de acesso:
 
@@ -52,6 +57,7 @@ REVOKE: Remove permissões de acesso.
 Responsável: Administradores de banco de dados.
 
 Objetivo: O DCL é usado para configurar permissões em um banco de dados, garantindo que apenas usuários autorizados possam acessar, modificar, ou administrar os dados. Isso é crucial para a segurança e a governança de dados, protegendo informações sensíveis e mantendo a integridade do sistema.
+----
 
 #### 5. TCL (Transaction Control Language)
 O TCL ou Linguagem de Controle de Transação é usado para gerenciar transações no banco de dados. Transações são importantes para manter a integridade dos dados e garantir que operações múltiplas sejam concluídas com sucesso ou não sejam realizadas de todo:
@@ -65,3 +71,4 @@ SAVEPOINT: Define um ponto na transação que pode ser usado para um rollback pa
 Responsável: Desenvolvedores de software e administradores de banco de dados.
 
 Objetivo: O TCL é usado para gerenciar transações no banco de dados, garantindo que as operações sejam completadas com sucesso ou revertidas em caso de erro. Isso é essencial para manter a consistência e integridade dos dados, especialmente em ambientes onde múltiplas transações ocorrem simultaneamente.
+----
