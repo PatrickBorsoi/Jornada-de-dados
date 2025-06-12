@@ -1,8 +1,6 @@
 # Aula - 03 
 
----
-
-# Aprendizado
+## Aprendizado
 - Primary key
 - Foreign key
 - Joins
